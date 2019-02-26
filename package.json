@@ -1,0 +1,32 @@
+{
+  "name": "proxy-gk",
+  "version": "1.0.0",
+  "description": "Proxy server for individual development work.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/table-for-five/proxy-gk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/table-for-five/proxy-gk/issues"
+  },
+  "homepage": "https://github.com/table-for-five/proxy-gk#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}

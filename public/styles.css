@@ -1,0 +1,89 @@
+#appWrap {
+  position: relative;
+}
+
+#Menu {
+  margin-left: 200px;
+}
+
+#Reservations {
+  background-color: white;
+  position: absolute;
+  display: inline-block;
+  top: 256px;
+  left: 865px;
+  z-index: 90;
+}
+
+.sideArrow {
+  border: 1px solid #d8d9db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideArrow:hover {
+  border: 2px solid #da3743;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.fadeBtn:hover {
+  border: 1px solid #d8d9db;
+  width: 30px;
+  height: 30px;
+  cursor: default;
+}
+
+.calendarBox {
+  height: 32px;
+  display: table-cell;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #d8d9db;
+  color: #d8d9db;
+  width: 34px;
+  font-size: 1.1em;
+}
+
+.thisMonth {
+  background-color: white;
+}
+
+.future {
+  font-weight: 500;
+  color: black;
+}
+
+.future:hover,
+.defaultDate {
+  outline-style: solid;
+  outline-color: #da3743;
+  cursor: pointer;
+}
+
+#dateWrap {
+  position: absolute;
+  width: 288px;
+}
+
+.ciYhnK {
+  margin-left: 220px;
+}
+
+#Header {
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  top: -25px;
+}
+
+.cGUdEy {
+  width: 100%;
+  color: red;
+}
