@@ -31,7 +31,7 @@
   </head>
   <body>
     <div id="appWrap">
-      <div id="Header"></div>
+      <div id="app"></div>
       <div id="Photos"></div>
       <div id="Menu"></div>
       <div id="Reservations"></div>
@@ -47,28 +47,28 @@
     ></script>
     <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
 
-    <script src="http://localhost:3000/bundle.js"></script>
-    <!-- <script src="http://ec2-18-206-121-61.compute-1.amazonaws.com/bundle.js"></script>
-    <script src="http://ec2-18-191-229-0.us-east-2.compute.amazonaws.com/bundle.js"></script>
-    <script src="http://ec2-3-17-28-103.us-east-2.compute.amazonaws.com/bundle.js"></script> -->
+    <script src="http://ec2-18-222-202-91.us-east-2.compute.amazonaws.com/bundle.js"></script>
+    <script src="http://ec2-13-59-134-78.us-east-2.compute.amazonaws.com/bundle.js"></script>
+    <script src="http://ec2-18-191-110-131.us-east-2.compute.amazonaws.com:3000/bundle.js"></script>
+    <script src="http://ec2-54-159-114-20.compute-1.amazonaws.com/bundle.js"></script>
 
     <script>
-      // ReactDOM.render(
-      //   React.createElement(window.Photos),
-      //   document.getElementById('Photos')
-      // );
-      // ReactDOM.render(
-      //   React.createElement(Header),
-      //   document.getElementById('Header')
-      // );
+      ReactDOM.render(
+        React.createElement(window.Photos),
+        document.getElementById('Photos')
+      );
+      ReactDOM.render(
+        React.createElement(window.Overview),
+        document.getElementById('app')
+      );
       ReactDOM.render(
         React.createElement(Menu),
         document.getElementById('Menu')
       );
-      // ReactDOM.render(
-      //   React.createElement(window.Reservations),
-      //   document.getElementById('Reservations')
-      // );
+      ReactDOM.render(
+        React.createElement(window.Reservations),
+        document.getElementById('Reservations')
+      );
     </script>
   </body>
 </html>
